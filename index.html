@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets\Vector.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head> 
+
+
+<body style="background-color: #001B2E;">
+  <h1 ><a href="index.html">MJ</a></h1>
+   <ul>
+      <li><a href="about.html">About</a></li>
+      <!--<li><a href="contact.html">Contact</a></li>-->
+       <li><a href="blog.html">Blog</a></li>
+   </ul>
+<div>
+  <h1 style="position:absolute; left: 8.6em; top: 40%;  font-size: 60px; font-family: roboto;">Hello there,</h1>
+  <div class="wrapper">
+     <h1>I'm Manasa, a computer science student and a design enthusiast.</h1>
+  </div>
+  <a class="cv" target="_blank" href="#CV">View CV</a>
+</div>
+
+  <img id="pic"; src="assets\Group 5.png" alt="Manasa Jayasri" width="420" height="700">
+
+  <div class="main">
+
+    <h1 style="font-family:roboto; font-weight: bold; font-size: 3em; padding-left: 8%;">Portfolio</h1>
+    <hr>
+    
+    <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="">
+            <h3>Project 1</h3>
+            <p>This is some random ass content about project one we'll see how the fudge am i gon pull this off</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <img src="">
+            <h3>Project 2</h3>
+            <p>This is some random ass content about project one we'll see how the fudge am i gon pull this off</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <img src="">
+            <h3>Project 3</h3>
+            <p>This is some random ass content about project one we'll see how the fudge am i gon pull this off</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <img src="">
+            <h3>Project 4</h3>
+            <p>This is some random ass content about project one we'll see how the fudge am i gon pull this off</p>
+          </div>
+        </div>
+
+    </div>
+<!--end of main-->
+    </div>
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+  <footer>
+    <p style=" color: white; font-family: roboto; font-size: 10px; text-align: center;">Copyright © 2021 by Manasa Jayasri.</p>
+  </footer>
+</body>
+</html>
